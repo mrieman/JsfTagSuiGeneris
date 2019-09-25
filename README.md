@@ -13,4 +13,4 @@ Next, it loops through the file and modifies the individual tags with a predefin
 ## Example?!?!?!
 It changes the tag by adding ''pass:mytag="myProject_<Number>"''. 
  * Old tag: <h:outputLabel for="input1234" value="This Cool Feild" />
- * New tag: <h:outputLabel '''pass:mytag="myProject_x_108"''' for="input1234" value="This Cool Feild" />
+ * New tag: <h:outputLabel pass:mytag="myProject_x_108" for="input1234" value="This Cool Feild" />
